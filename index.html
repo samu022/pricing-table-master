@@ -10,7 +10,7 @@
       type="image/x-icon"
       sizes="96x96"
     />
-
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Pricing Table | devChallenges.io</title>
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
@@ -35,6 +35,27 @@
       .author-info a {
         text-decoration: none;
       }
+      .cabecera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #F8FAFC;
+        border-bottom: 0.05em solid #4D556233;
+        height: 20vh;
+      }
+      .cabecera p{
+        max-width: 400px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: small;
+      }
+      .precios {
+        background-color: #ffff;
+        display: grid;
+      }
+      
     </style>
   </head>
   <body>
@@ -89,10 +110,12 @@
   -->
     <div class="main">
      <div class="cabecera">
-        <h1>Pricing & Plans</h1><br>
-        <p>Discover the plan that unlocks the transformative power of digital art and join our vibrant community today.</p>
+        <h1>Pricing & Plans</h1>
+        <p>Discover the plan that unlocks the transformative power 
+          of digital art and join our vibrant community today.</p>
      </div> 
-     <div class="precios">
+
+     <section class="precios">
       <div class="tags">
         <p>Website number</p>
         <p>Server storage</p>
@@ -143,7 +166,7 @@
         <p>✔</p>
         <p>✔</p>
         <p>✔</p>
-        <p>Get Started </p> <img src="./resources/down arrow-1.svg" src="flecha izq">
+        <p>Get Started </p> <img src="./resources/down arrow.svg" src="flecha izq">
       </div>
       <div class="Enterprise">
         <h5>Enterprise</h5>
